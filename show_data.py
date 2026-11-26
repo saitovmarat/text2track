@@ -4,11 +4,11 @@ from collections import defaultdict
 import csv
 from configparser import ConfigParser
 from time import perf_counter
-from tracker import Track, Tracker
+from models.tracker import Track, Tracker
 from visualisation import draw_tracks
 
 
-video_name = "MOT17-02-FRCNN"
+video_name = "MOT17-13-FRCNN"
 DATA_PATH = Path(f"./data/MOT17/train/{video_name}")
 frames_path = DATA_PATH / "img1"
         

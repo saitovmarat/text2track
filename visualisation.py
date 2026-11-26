@@ -1,6 +1,6 @@
 import random
 import cv2
-from tracker import Track
+from models.tracker import Track
 from collections import defaultdict
 
 

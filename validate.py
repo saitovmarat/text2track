@@ -4,7 +4,7 @@ import csv
 from configparser import ConfigParser
 from contextlib import redirect_stdout
 from io import StringIO
-from tracker import Track, Tracker
+from models.tracker import Track, Tracker
 import sys
 from unittest.mock import patch
 import numpy as np
